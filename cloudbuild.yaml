@@ -1,5 +1,5 @@
 steps:
-- name: 'eu.gcr.io/car-eu-playground-sco-nprd/test-deploy'
-  args: [ 'build', '-t', 'eu.gcr.io/car-eu-playground-sco-nprd/test-deploy/quickstart-image:tag1', '.' ]
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'europe-west3-docker.pkg.dev/car-eu-playground-sco-nprd/eu-carops-repo/quickstart-image:tag1', '.' ]
 images:
-- 'eu.gcr.io/car-eu-playground-sco-nprd/test-deploy/quickstart-image:tag1'
+- 'europe-west3-docker.pkg.dev/car-eu-playground-sco-nprd/eu-carops-repo/quickstart-image:tag1'
