@@ -1,5 +1,5 @@
 steps:
-- name: 'eu.gcr.io/car-eu-playground-sco-nprd/quick-start-repo'
-  args: [ 'build', '-t', 'eu.gcr.io/car-eu-playground-sco-nprd/quick-start-repo/quickstart-image:tag1', '.' ]
+- name: 'eu.gcr.io/car-eu-playground-sco-nprd/test-deploy'
+  args: [ 'build', '-t', 'eu.gcr.io/car-eu-playground-sco-nprd/test-deploy/quickstart-image:tag1', '.' ]
 images:
-- 'eu.gcr.io/car-eu-playground-sco-nprd/quick-start-repo/quickstart-image:tag1'
+- 'eu.gcr.io/car-eu-playground-sco-nprd/test-deploy/quickstart-image:tag1'
