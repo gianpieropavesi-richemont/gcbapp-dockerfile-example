@@ -15,10 +15,10 @@ steps:
   - 'test-deploy-tag2'
   - '--allow-unauthenticated'
   - '--image'
-  - 'eu.gcr.io/car-eu-playground-sco-nprd/test-deploy:tag3'
+  - 'eu.gcr.io/car-eu-playground-sco-nprd/test-deploy:tag4'
   - '--region'
   - 'europe-west3'
   - '--platform'
   - 'managed'
 images:
-- eu.gcr.io/car-eu-playground-sco-nprd/test-deploy:tag3
+- eu.gcr.io/car-eu-playground-sco-nprd/test-deploy:tag4
